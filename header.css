@@ -1,0 +1,49 @@
+.header_acp{
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 20px rgba(93, 90, 90, 0.099);
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: rgb(42, 39, 39);
+}
+a:hover{
+    color: rgb(42, 39, 39);
+}
+
+.header_acp a h1{
+    font-size: 40px;
+    margin: 0;
+    color: rgb(42, 39, 39);
+}
+
+.header_acp .menu_desktop_acp a{
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+.header_acp .menu_desktop_acp a:hover{
+    border-bottom: 2px solid rgb(109, 218, 65);
+}
+
+
+.header_acp .menu_desktop_acp .login{
+    background: rgb(109, 218, 65);
+    border-radius: 20px;
+    color: white;
+    border-bottom: 0px !important; 
+}
+.header_acp .menu_desktop_acp .login:hover{
+    background: rgb(131, 222, 95);
+    border-radius: 20px;
+    color: white;
+    border-bottom: 0px !important; 
+}
+
+
+
